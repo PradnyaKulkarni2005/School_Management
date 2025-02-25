@@ -1,0 +1,75 @@
+/* StudentInterface.css */
+
+
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #FDFFB6 0%, #E7BC91 100%);
+    padding: 8px;
+    border-radius: 10px;
+    font-family: "Raleway", serif;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  
+  .logo {
+    width: 50px;
+    margin-right: 25px;
+  }
+  
+  .student-info {
+    background: linear-gradient(180deg, #E3F2FD 0%, #9AD1D4 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 40;
+    padding: 10px;
+    margin: 35px;
+    border-radius: 5px;
+    width:30%;
+    font-family: 'Poppins';
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    
+  }
+  
+  .button {
+    margin: 40px;
+    text-align: center;
+    background: #dff6ff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+    background: linear-gradient(180deg, #E3F2FD 0%, #9AD1D4 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 40;
+    height: 140px;
+    
+  }
+  
+  .button img {
+    width: 75px;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, #DE796D 0%, #621708 100%);
+    gap: 30px;
+    padding: 15px;
+  }
+  
+  .footer img {
+    width: 50px;
+    cursor: pointer;
+    
+  }
+
+  
