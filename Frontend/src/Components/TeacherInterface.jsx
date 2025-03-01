@@ -1,5 +1,5 @@
 import React from "react";
-
+import { FaYoutube, FaFacebook, FaTwitter,FaInstagram } from "react-icons/fa";
 import "./interface.css"; // Importing the CSS file
 
 const TeacherInterface = () => {
@@ -36,10 +36,10 @@ const TeacherInterface = () => {
       </div>
 
       <footer className="footer">
-        <img src="https://i.imgur.com/TF2zp1H.png" className="image" alt="YouTube" />
-        <img src="https://i.imgur.com/jAZrnPA.png" className="image" alt="Facebook" />
-        <img src="https://i.imgur.com/Atz2zDZ.png" className="image" alt="Instagram" />
-        <img src="https://i.imgur.com/Yf1PkAS.png" className="image" alt="Twitter" />
+        <FaYoutube className="image"/>
+                        <FaFacebook className="image"/>
+                        <FaInstagram className="image"/>
+                        <FaTwitter className="image"/>
         
       </footer>
     </div>

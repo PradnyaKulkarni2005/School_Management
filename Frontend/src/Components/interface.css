@@ -56,19 +56,27 @@
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    background: linear-gradient(180deg, #DE796D 0%, #621708 100%);
+    background: linear-gradient(180deg, #FFEDD8 0%, #ecaaaa 100%);
     gap: 30px;
     padding: 15px;
   }
   
-  .footer img {
-    width: 50px;
+  .image {
+    width: 80px;
     cursor: pointer;
-    
+    height: 30px;
   }
   .teacher-info{
     background: #E9F2BC;
     padding: 2px;
+  }
+  .home{
+    font-size: 22px;
+    font-family: 'Poppins';
+  }
+  .icon{
+    width: 40px;
+    height: 50px;
   }
 
   

@@ -1,7 +1,14 @@
 import React from "react";
+import { FaYoutube, FaFacebook, FaTwitter,FaInstagram } from "react-icons/fa";
 import "./Login.css"; // Import external CSS file
-
+import {  useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 const Login = () => {
+  const navigate=useNavigate();
+  const handleClick = (route) => {
+    navigate(route); 
+    
+  };
   return (
     <div className="container">
       <header className="header">
@@ -36,15 +43,25 @@ const Login = () => {
             placeholder="Password:"
             className="input-field"
           />
-          <button className="login-button">Login</button>
+          <button className="login-button"  onClick={(handleClick)=>{navigate('/home')}}>Login</button>
+          <div className="login-footer">
+            <a href="#" className="forgot-password">Forgot Password?</a>
+            <span>Don't have an account? 
+              <Link to="/register" className="register-link"> Register</Link>
+            </span>
+          </div>
         </div>
       </div>
     </div>
     <footer className="footer">
-        <img src="https://i.imgur.com/TF2zp1H.png" className="image" alt="YouTube" />
+        {/* <img src="https://i.imgur.com/TF2zp1H.png" className="image" alt="YouTube" />
         <img src="https://i.imgur.com/jAZrnPA.png" className="image" alt="Facebook" />
         <img src="https://i.imgur.com/Atz2zDZ.png" className="image" alt="Instagram" />
-        <img src="https://i.imgur.com/Yf1PkAS.png" className="image" alt="Twitter" />
+        <img src="https://i.imgur.com/Yf1PkAS.png" className="image" alt="Twitter" /> */}
+        <FaYoutube className="image"/>
+        <FaFacebook className="image"/>
+        <FaInstagram className="image"/>
+        <FaTwitter className="image"/>
         
       </footer>
     </div>
